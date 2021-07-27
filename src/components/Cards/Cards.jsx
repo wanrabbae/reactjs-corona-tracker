@@ -1,5 +1,4 @@
 import React from 'react'
-import styles from './Cards.module.css'
 import CountUp from 'react-countup'
 
 const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate }, country }) => {
@@ -16,7 +15,9 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate }, country }) 
             </h2>
             <div className="row row-cols-1 row-cols-md-3 g-4 justify-content-center">
                 <div className="col-md-3">
-                    <div className="card h-100" className={styles.cardInfected}>
+
+                    <div className="card h-100" style={{ borderBottom: '10px solid rgb(207, 14, 207)', padding: '7px', boxShadow: 'rgba(0, 0, 0, 0.24) 0px 3px 8px', borderRadius: '10px' }}>
+
                         <div className="card-body">
                             <h6 className="text-muted">Infected</h6>
                             <h5 className="card-title">
@@ -32,7 +33,9 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate }, country }) 
                     </div>
                 </div>
                 <div className="col-md-3">
-                    <div className="card h-100" className={styles.cardRecovered}>
+
+                    <div className="card h-100" style={{ borderBottom: '10px solid rgb(23, 207, 94)', padding: '7px', boxShadow: 'rgba(0, 0, 0, 0.24) 0px 3px 8px', borderRadius: '10px' }}>
+
                         <div className="card-body">
                             <h6 className="text-muted">Recovered</h6>
                             <h5 className="card-title">
@@ -48,7 +51,9 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate }, country }) 
                     </div>
                 </div>
                 <div className="col-md-3">
-                    <div className="card h-100" className={styles.cardDeaths}>
+
+                    <div className="card h-100" style={{ borderBottom: '10px solid rgb(235, 30, 81)', padding: '7px', boxShadow: 'rgba(0, 0, 0, 0.24) 0px 3px 8px', borderRadius: '10px' }}>
+
                         <div className="card-body">
                             <h6 className="text-muted">Deaths</h6>
                             <h5 className="card-title">

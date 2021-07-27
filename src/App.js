@@ -1,6 +1,7 @@
 import React from 'react'
 import { Cards, Country } from './components/'
 import { fetchData } from './api'
+import './App.module.css'
 
 class App extends React.Component {
     state = {
