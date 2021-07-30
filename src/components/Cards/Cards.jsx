@@ -16,7 +16,7 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate }, country }) 
             <div className="row row-cols-1 row-cols-md-3 g-4 justify-content-center">
                 <div className="col-md-3">
 
-                    <div className="card h-100" style={{ borderBottom: '10px solid rgb(207, 14, 207)', padding: '7px', boxShadow: 'rgba(0, 0, 0, 0.24) 0px 3px 8px', borderRadius: '10px' }}>
+                    <div className="card h-100 bg-transparent" style={{ borderBottom: '10px solid rgb(207, 14, 207)', padding: '7px', boxShadow: 'rgba(0, 0, 0, 0.24) 0px 3px 8px', borderRadius: '10px' }}>
 
                         <div className="card-body">
                             <h6 className="text-muted">Infected</h6>
@@ -34,7 +34,7 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate }, country }) 
                 </div>
                 <div className="col-md-3">
 
-                    <div className="card h-100" style={{ borderBottom: '10px solid rgb(23, 207, 94)', padding: '7px', boxShadow: 'rgba(0, 0, 0, 0.24) 0px 3px 8px', borderRadius: '10px' }}>
+                    <div className="card h-100 bg-transparent" style={{ borderBottom: '10px solid rgb(23, 207, 94)', padding: '7px', boxShadow: 'rgba(0, 0, 0, 0.24) 0px 3px 8px', borderRadius: '10px' }}>
 
                         <div className="card-body">
                             <h6 className="text-muted">Recovered</h6>
@@ -52,7 +52,7 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate }, country }) 
                 </div>
                 <div className="col-md-3">
 
-                    <div className="card h-100" style={{ borderBottom: '10px solid rgb(235, 30, 81)', padding: '7px', boxShadow: 'rgba(0, 0, 0, 0.24) 0px 3px 8px', borderRadius: '10px' }}>
+                    <div className="card h-100 bg-transparent" style={{ borderBottom: '10px solid rgb(235, 30, 81)', padding: '7px', boxShadow: 'rgba(0, 0, 0, 0.24) 0px 3px 8px', borderRadius: '10px' }}>
 
                         <div className="card-body">
                             <h6 className="text-muted">Deaths</h6>

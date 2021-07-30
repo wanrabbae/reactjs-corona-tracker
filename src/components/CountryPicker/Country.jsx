@@ -14,7 +14,7 @@ const Country = ({ handleCountryChange }) => {
     }, [setCountries])
 
     return (
-        <div className="row justify-content-center mt-4 mb-5">
+        <div className="row justify-content-center mt-4 mb-3">
             <div className="col-md-4">
                 <select className="form-select" onChange={(e) => handleCountryChange(e.target.value)}>
                     <option selected>Select Country</option>

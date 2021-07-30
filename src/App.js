@@ -1,5 +1,5 @@
 import React from 'react'
-import { Cards, Country } from './components/'
+import { Cards, Country, Chart } from './components/'
 import { fetchData } from './api'
 import './App.module.css'
 
@@ -31,9 +31,10 @@ class App extends React.Component {
                 </div>
                 <Cards data={data} country={country} />
                 <Country handleCountryChange={this.handleCountryChange} />
+                <Chart data={data} country={country} />
 
-                <footer className="text-center">
-                    <span>&copy; Copyright 2021 Alwan <font color="red">&hearts;</font></span>
+                <footer className="text-center pb-5">
+                    <span>&copy; Copyright 2021 Alwan, Create with <font color="red">&hearts;</font></span>
                 </footer>
             </div>
         )
